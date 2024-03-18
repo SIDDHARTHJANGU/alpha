@@ -9,8 +9,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      backgroundColor: {
+        "common-white-bg": "#eceae7",
+        "common-black-bg": "#2b2b2b",
+        "common-dark-black-bg": "#1e1e1e",
+      },
+      fontFamily: {
+        Inter: ["Inter"],
       },
     },
   },
