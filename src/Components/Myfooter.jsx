@@ -1,12 +1,12 @@
 import React from "react";
 import footerlogo from "../../public/assets/img/Svg/footer_logo.svg";
 import Image from "next/image";
-import { Facebook, InstaGram, LinkeDin } from "./Common/Icons";
+import { Facebook, Instagram, LinkeDin } from "./Common/Icons";
 import footer_bg_img from "../../public/assets/img/Webp/footer_img.png";
 
 export const Myfooter = () => {
   return (
-    <div className="bg-common-dark-black-bg relative -z-20">
+    <div className="bg-common-dark-black-bg relative ">
       <div>
         <Image
           className=" absolute top-0 left-0 max-w-[293px] w-full"
@@ -48,9 +48,15 @@ export const Myfooter = () => {
             </li>
           </ul>
           <div className="flex gap-4">
-            <LinkeDin />
-            <Facebook />
-            <InstaGram />
+            <a href="https://www.linkedin.com/feed/">
+              <LinkeDin />
+            </a>
+            <a href="https://www.facebook.com/">
+              <Facebook />
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+              <Instagram />
+            </a>
           </div>
         </div>
         <p className="py-[19px] text-center font-Inter font-normal footer_line text-[16px] text-[#b6b6b6] border-t-[1px] border-[#bbbbbb]">
