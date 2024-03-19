@@ -1,21 +1,31 @@
 import React from "react";
 // import { HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
-import businessimg from "../../public/assets/img/Webp/business.png";
-import planimg from "../../public/assets/img/Webp/plan.png";
-import braniimg from "../../public/assets/img/Webp/brainstorm.png";
-import gotelip from "../../public/assets/img/Svg/got_bg_elip.svg";
+import businessimg from "../../public/assets/img/webp/business.png";
+import planimg from "../../public/assets/img/webp/plan.png";
+import braniimg from "../../public/assets/img/webp/brainstorm.png";
+import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
+import latesttopelip from "../../public/assets/img/svg/latest_blog_top_elip.svg";
+import latestbottomelip from "../../public/assets/img/svg/latest_blog_bottom_elip.svg";
 
 const LatestBlogs = () => {
   return (
-    <div className="bg-[#eceae7] ">
-      <div className="container max-w-[1152px] mx-auto px-3 ">
-        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex  flex-col justify-center items-center lg:mr-8 lg:items-start border-[#2B2B2B]">
-          {/* <div className="flex items-center">
-            <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal text-rich-black font-inter">
-              LATEST BLOG
-            </h2>
-          </div> */}
+    <div className="bg-[#eceae7] relative ">
+      <div>
+        <Image
+          className="absolute top-[38%] left-[28px] "
+          src={latesttopelip}
+          alt="latesttopelip"
+        />
+        <Image
+          className="absolute bottom-[9%] right-[28px] "
+          src={latestbottomelip}
+          alt="latestbottomelip"
+        />
+      </div>
+      <div className="container max-w-[1152px] mx-auto px-3  relative ">
+        <div className=" absolute left-[4.5%] hidden md:block top-0 h-[148px] border-l-[1px] border-[#2b2b2b] z-40"></div>
+        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex flex-col justify-center items-center lg:mr-8 lg:items-start border-[#2B2B2B]">
           <div className=" relative z-10">
             <Image
               className="absolute w-[10%] top-0 left-[-10px] xl:left-[-15px] -z-10"
@@ -39,13 +49,13 @@ const LatestBlogs = () => {
                     height={237.52}
                     alt="business"
                   />
-                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-5 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[16px] max-w-[290.47px] pr-[30px]">
+                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
                     <h3 className="font-semibold text-md font-inter text-white">
                       Esther Howard
                     </h3>
-                    <p className="text-sm text-[#b9b9b9] font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                    <p className="text-sm text-[#b9b9b9] font-inter font-normal leading-[160%]">
+                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                      Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>
                 </div>
@@ -63,13 +73,13 @@ const LatestBlogs = () => {
                     height={237.52}
                     alt="business"
                   />
-                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-5 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[16px] max-w-[290.47px] pr-[30px]">
+                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9min-[1000px]:left-0 min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
                     <h3 className="font-semibold text-md font-inter text-white">
                       Esther Howard
                     </h3>
                     <p className="text-sm text-[#b9b9b9] font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                      Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>
                 </div>
@@ -87,13 +97,13 @@ const LatestBlogs = () => {
                     height={237.52}
                     alt="business"
                   />
-                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-5 min-[1000px]:left-0 min-[1030px]:left-5 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[16px] max-w-[290.47px] pr-[30px]">
+                  <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
                     <h3 className="font-semibold text-md font-inter text-white">
                       Esther Howard
                     </h3>
                     <p className="text-sm text-[#b9b9b9] font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                      Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>
                 </div>

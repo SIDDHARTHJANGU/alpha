@@ -135,3 +135,82 @@ export const PreButton = () => {
     </div>
   );
 };
+export const Headerunderline = () => {
+  return (
+    <svg
+      width="496"
+      height="18"
+      viewBox="0 0 496 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="0.728516"
+        y="0.34375"
+        width="494.619"
+        height="17.3719"
+        fill="url(#paint0_linear_8001_3402)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_8001_3402"
+          x1="248.038"
+          y1="0.34375"
+          x2="248.038"
+          y2="17.7157"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.200967" stop-color="#FF684D" />
+          <stop offset="1" stop-color="#FF5269" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+export const Bttnarrow = () => {
+  return (
+    <svg
+      width="44"
+      height="8"
+      viewBox="0 0 44 8"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M43.847 4.12186C44.0423 3.9266 44.0423 3.61002 43.847 3.41476L40.665 0.232777C40.4697 0.0375145 40.1532 0.0375145 39.9579 0.232777C39.7626 0.428039 39.7626 0.744621 39.9579 0.939883L42.7863 3.76831L39.9579 6.59674C39.7626 6.792 39.7626 7.10858 39.9579 7.30384C40.1532 7.49911 40.4697 7.49911 40.665 7.30384L43.847 4.12186ZM0 4.26831H43.4934V3.26831H0V4.26831Z"
+        fill="#2B2B2B"
+      />
+    </svg>
+  );
+};
+export const Headerhalfcircle = () => {
+  return (
+    <svg
+      width="56"
+      height="70"
+      viewBox="0 0 56 70"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.0595415 4.9592C4.32957 2.55045 9.03221 1.00632 13.899 0.414999C18.7658 -0.176331 23.7014 0.196717 28.424 1.51283C33.1466 2.82895 37.5637 5.06237 41.4232 8.08557C45.2826 11.1088 48.5088 14.8625 50.9176 19.1326C53.3263 23.4026 54.8705 28.1052 55.4618 32.972C56.0531 37.8388 55.6801 42.7744 54.3639 47.497C53.0478 52.2196 50.8144 56.6367 47.7912 60.4962C44.768 64.3557 41.0142 67.5819 36.7442 69.9906L18.4019 37.4749L0.0595415 4.9592Z"
+        fill="url(#paint0_linear_8001_3419)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_8001_3419"
+          x1="-14.1138"
+          y1="55.8172"
+          x2="50.9176"
+          y2="19.1326"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.200967" stop-color="#FF684D" />
+          <stop offset="1" stop-color="#FF5269" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+ 
+ 
