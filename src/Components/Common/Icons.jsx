@@ -78,7 +78,7 @@ export const Facebook = () => {
     </div>
   );
 };
-export const InstaGram = () => {
+export const Instagram = () => {
   return (
     <div>
       <svg
@@ -120,7 +120,7 @@ export const InstaGram = () => {
 export const Headerunderline = () => {
   return (
     <svg
-      width="496"
+      className="max-w-[456px] w-full"
       height="18"
       viewBox="0 0 496 18"
       fill="none"
@@ -194,5 +194,22 @@ export const Headerhalfcircle = () => {
     </svg>
   );
 };
- 
- 
+
+export const PreButton = () => {
+  return (
+    <div>
+      <svg
+        width="92"
+        height="16"
+        viewBox="0 0 92 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M90.808 8.56111C91.1986 8.17059 91.1986 7.53742 90.808 7.1469L84.4441 0.782936C84.0535 0.392412 83.4204 0.392412 83.0299 0.782936C82.6393 1.17346 82.6393 1.80663 83.0299 2.19715L88.6867 7.854L83.0299 13.5109C82.6393 13.9014 82.6393 14.5345 83.0299 14.9251C83.4204 15.3156 84.0535 15.3156 84.4441 14.9251L90.808 8.56111ZM0.71875 8.854H90.1009V6.854H0.71875V8.854Z"
+          fill="white"
+        />
+      </svg>
+    </div>
+  );
+};

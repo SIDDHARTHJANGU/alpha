@@ -17,7 +17,11 @@ module.exports = {
       },
       fontFamily: {
         Inter: ["Inter"],
-      }, 
+      },
+      backgroundImage: {
+        "linear-gradient-date":
+          "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
+      },
     },
   },
   plugins: [],
