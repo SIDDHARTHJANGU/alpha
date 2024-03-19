@@ -11,10 +11,13 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
       backgroundColor: {
-        'common-white-bg': '#eceae7',  
-        'common-black-bg': '#2b2b2b',  
-        'common-dark-black-bg': '#1e1e1e',  
-      }
+        "common-white-bg": "#eceae7",
+        "common-black-bg": "#2b2b2b",
+        "common-dark-black-bg": "#1e1e1e",
+      },
+      fontFamily: {
+        Inter: ["Inter"],
+      }, 
     },
   },
   plugins: [],

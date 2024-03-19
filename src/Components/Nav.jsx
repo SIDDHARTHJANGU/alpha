@@ -28,7 +28,7 @@ const Nav = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Image
-            src="/assets/img/Svg/Group 5.svg"
+            src="/assets/img/Svg/logo.svg"
             alt="Logo"
             width={153}
             height={47}
@@ -71,7 +71,7 @@ const Nav = () => {
               <a
                 onClick={Movement}
                 href="#"
-                className="text-black text-lg font-medium"
+                className="text-black text-lg font-Inter font-medium"
               >
                 About Us
               </a>
@@ -80,7 +80,7 @@ const Nav = () => {
               <a
                 onClick={Movement}
                 href="#"
-                className="text-black text-lg font-medium"
+                className="text-black text-lg font-Inter font-medium"
               >
                 Our Work
               </a>
@@ -89,7 +89,7 @@ const Nav = () => {
               <a
                 onClick={Movement}
                 href="#"
-                className="text-black text-lg font-medium"
+                className="text-black text-lg font-Inter font-medium"
               >
                 Services
               </a>
