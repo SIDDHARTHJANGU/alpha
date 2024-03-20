@@ -3,6 +3,7 @@ import Image from "next/image";
 import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
 import quoteimg from "../../public/assets/img/webp/quote_img.png";
 import quotecircleimg from "../../public/assets/img/svg/quote_circle_elip.svg";
+
 const Quote = () => {
   return (
     <div className="bg-common-black-bg pb-[173px] relative">
@@ -14,7 +15,7 @@ const Quote = () => {
         />
       </div>
       <div className="container max-w-[1140px] mx-auto px-3 relative">
-        <div className=" absolute left-[4%] hidden md:block top-0 h-[80px] border-l-[1px] border-[#f6f6f6] z-40"></div>
+        <div className=" absolute left-[4%]  top-0 h-[80px] border-l-[1px] border-[#f6f6f6] z-40"></div>
         <div className="pt-[99px]">
           <div className=" relative z-10">
             <Image
@@ -39,10 +40,10 @@ const Quote = () => {
               Marketing Coordinator
             </p>
             <p className=" font-Inter font-normal text-[16px]  text-[#b9b9b9] max-w-[574px] mt-4">
-              Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo Sartorial Out
-              Celiac Af Beard Sartorial. Trade Shabby Cleanse Actually Chic
-              Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore Lyft Letterpress
-              Church-Key. Pinterest Dreamcatcher{" "}
+              Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+              Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+              Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+              Lyft Letterpress Church-Key. Pinterest Dreamcatcher{" "}
             </p>
           </div>
         </div>

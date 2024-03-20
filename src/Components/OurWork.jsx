@@ -15,14 +15,14 @@ const OurWork = () => {
           alt="triangleelip"
         />
         <Image
-          className="absolute top-[19%] right-[80px] hidden lg:block -z-10"
+          className="absolute top-[19%] right-[80px] hidden xl:block -z-10"
           src={fivecircle}
           alt="fivecircle"
         />
       </div>
       <div className="container max-w-[1152px] mx-auto px-3 relative ">
-        <div className=" absolute left-[4.5%] hidden md:block top-0 xl:h-[230px] md:h-[60px] border-l-[1px] border-[#2b2b2b] z-40"></div>
-        <div className=" xl:pt-[245px] pt-12  xl:pb-[133px] pb-12 border-r-[1px] border-[#2B2B2B]">
+        <div className=" absolute left-[4.5%]  top-0 xl:h-[230px] lg:h-[150px] md:h-[55px] h-[45px] border-l-[1px] border-[#2b2b2b] z-40"></div>
+        <div className=" xl:pt-[245px] pt-12 xl:pb-[133px] lg:pb-[100px] lg:pt-[150px] pb-12 border-r-[1px] border-[#2B2B2B]">
           <div className=" relative">
             <Image
               className="absolute  top-0 left-[-10px] xl:left-[-15px] -z-10"
@@ -89,7 +89,7 @@ const OurWork = () => {
                 <div class="relative  border-[1px] border-[#2b2b2b] py-[46px] px-4 xl:max-w-[284px] md:max-w-[370px] lg:max-w-[330px] sm:max-w-[450px] w-full">
                   <div className=" ">
                     <p className=" font-Inter font-semibold text-[20px] leading-[120%]">
-                      EEnergy Management
+                      Energy Management
                     </p>
                     <p className=" text-[#656463] font-Inter font-normal text-[16px] mt-3 ">
                       Speak To Ideal Clients That Are Outside Your Network.
