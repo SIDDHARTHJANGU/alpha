@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "linear-gradient-date": "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
       },
       backgroundColor: {
         "common-white-bg": "#eceae7",
@@ -17,7 +18,8 @@ module.exports = {
       },
       fontFamily: {
         Inter: ["Inter"],
-      },
+      }, 
+    
       backgroundImage: {
         "linear-gradient-date":
           "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",

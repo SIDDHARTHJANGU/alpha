@@ -1,69 +1,117 @@
-  "use client";
-  import Image from "next/image";
+"use client";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-const Nav = () => {
-  const [show, setShow] = useState(false);
+const Sidebar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   useEffect(() => {
-    if (!show) {
-      document.body.classList.add("overflow-x-hidden");
+    const body = document.querySelector("body");
+    if (isSidebarOpen) {
+      body.classList.add("overflow-hidden");
     } else {
-      document.body.classList.remove("overflow-x-hidden");
+      body.classList.remove("overflow-hidden");
     }
-  }, [show]);
+    return () => {
+      body.classList.remove("overflow-hidden");
+    };
+  }, [isSidebarOpen]);
 
-  const toggleMenu = () => {
-    setShow(!show);
-    if (!show) {
-      document.body.classList.add("overflow-y-hidden");
-    } else {
-      document.body.classList.remove("overflow-y-hidden");
-    }
+  const handleLinkClick = () => {
+    setIsSidebarOpen(false);
   };
 
   return (
-    <div className={`bg-common-white-bg pt-3 pb-6 ${show ? "overflow-hidden" : "overflow-x-hidden"}`}>
-      <div className="container max-w-[1140px] mx-auto px-3 xl:px-0">
+    <div className="bg-common-white-bg">
+      <div className="relative max-w-[1080px] mx-auto px-3 xl:px-0 pt-5 pb-6 z-10">
+        <Image
+          className="absolute top-10  -left-40 -z-10"
+          src="/assets/img/Svg/header_alpha.svg"
+          alt="alphaelip"
+          width={140}
+          height={170}
+        />
         <div className="flex justify-between items-center">
-          <Image src="/assets/img/svg/logo.svg" alt="Logo" width={153} height={47} />
-          <button
-            className="block z-50 focus:outline-none"
-            onClick={toggleMenu}
-          >
-            <div className="w-[42px] h-[28px] flex flex-col justify-between items-center z-40">
-              <span className={`w-full h-1 bg-gray-600 transition-transform duration-300 ${show ? "rotate-45 translate-y-4" : ""}`}></span>
-              <span className={`w-full h-1 bg-gray-600 transition-opacity duration-300 ${show ? "opacity-0" : "opacity-100"}`}></span>
-              <span className={`w-full h-1 bg-gray-600 transition-transform duration-300 ${show ? "-rotate-[50deg] -translate-y-2" : ""}`}></span>
-            </div>
-          </button>
-          <div
-            className={`absolute top-0 ${
-              show ? "right-0" : "-right-full"
-            } h-full z-40 bg-white w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 transition-right duration-500 flex items-center justify-center`}
-          >
-            <ul className="flex flex-col gap-6">
-              <li>
-                <a onClick={toggleMenu} href="#" className="text-black text-lg font-Inter font-medium">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a onClick={toggleMenu} href="#" className="text-black text-lg font-Inter font-medium">
-                  Our Work
-                </a>
-              </li>
-              <li>
-                <a onClick={toggleMenu} href="#" className="text-black text-lg font-Inter font-medium">
-                  Services
-                </a>
-              </li>
-            </ul>
-          </div>
+          <Image
+            src="/assets/img/svg/logo.svg"
+            alt="Logo"
+            width={153}
+            height={47}
+          />
+
+          {/* This button now only appears when the sidebar is not open */}
+          {!isSidebarOpen && (
+            <button
+              onClick={toggleSidebar}
+              className="z-30 cursor-pointer flex flex-col justify-between items-center h-4 w-6"
+            >
+              <span className="block w-6 h-[2px] bg-black mb-1"></span>
+              <span className="block w-6 h-[2px] bg-black mb-1"></span>
+              <span className="block w-6 h-[2px] bg-black"></span>
+            </button>
+          )}
         </div>
+
+        {/* Overlay and Sidebar */}
+        {isSidebarOpen && (
+          <div className="fixed inset-0 z-40">
+            {/* Sidebar Overlay */}
+            <div
+              className="absolute inset-0 bg-black bg-opacity-50"
+              onClick={toggleSidebar}
+            ></div>
+
+            {/* Sidebar */}
+            <div className="absolute top-0 right-0 h-full z-50 w-64 bg-white pt-3 pb-6 transition-transform duration-300">
+              {/* Close button moves to the top left of the sidebar */}
+              <div className="absolute top-0 left-0 pt-3 pl-3">
+                <button
+                  onClick={toggleSidebar}
+                  className="cursor-pointer flex flex-col justify-between items-center h-4 w-6 relative"
+                >
+                  <span className="block w-6 h-[2px] bg-black rotate-45 translate-y-3"></span>
+                  <span className="block w-6 h-[2px] bg-black -rotate-45 -translate-y-[1px]"></span>
+                </button>
+              </div>
+              <ul className="mt-10 flex flex-col gap-6 justify-center items-center text-center min-h-full">
+                <li>
+                  <a
+                    href="#"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    Our Work
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    Services
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
-export default Nav;
+export default Sidebar;

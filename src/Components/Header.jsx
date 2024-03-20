@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Bttnarrow, Headerhalfcircle, Headerunderline } from "./Common/Icons";
 import Image from "next/image";
 
-const Header = () => {
+const Hero = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
   const [count3, setCount3] = useState(0);
@@ -31,11 +31,11 @@ const Header = () => {
   }, []);
   return (
     <div className="bg-common-white-bg">
-      <div className="max-w-[1140px] mx-auto px-3 xl:px-0 border-t border-r border-black relative z-20">
+      <div className="max-w-[1080px] mx-auto px-3 xl:px-0 border-t border-black border-r relative z-10">
         <div className="absolute left-0 top-0 h-[43px] border-l border-black"></div>
         <div className="flex flex-wrap">
-          <div className=" w-full lg:w-[85%]">
-            <div className="flex justify-between lg:h-[545px]">
+          <div className="w-full lg:w-[85%] xl:w-[82.3%] 2xl:w-[85%] border-r border-black">
+            <div className="flex justify-between">
               <div>
                 <p className="font-Inter font-normal text-xl !leading-[121%] text-[#2B2B2B] mt-6 md:mt-[70px] uppercase">
                   B2B Sales Agency
@@ -50,9 +50,9 @@ const Header = () => {
                       <Headerunderline />{" "}
                     </span>{" "}
                   </span>{" "}
-                  agency{" "}
+                  agency
                 </h1>
-                <ul className="mt-2 lg:mt-10">
+                <ul className="mt-2 lg:mt-10 lg:pb-[72px]">
                   <li>
                     <a
                       href=""
@@ -63,44 +63,37 @@ const Header = () => {
                   </li>
                 </ul>
                 <div className="hidden md:block lg:hidden">
-                  <div className="flex lg:flex-col items-center justify-between py-5">
-                    <div className="text-center lg:px-4 border-b lg:border-black lg:pb-8 lg:h-[325px] flex flex-col justify-center items-cente">
-                      <div className="lg:ps-14 lg:pt-10 hidden lg:block">
-                        <Headerhalfcircle />
-                      </div>
-                      <div>
-                        <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
-                          {count1}+
-                        </p>
-                        <p className="text-center font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
-                          Years of experience
-                        </p>
-                      </div>
-                    </div>
-                    <div className="w-[1px] bg-black h-28 lg:hidden"></div>
-                    <div className="lg:pt-10 lg:pb-8 border-b lg:border-black text-center flex flex-col justify-center items-center">
-                      <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
-                        {count2}
+                  <div className="flex justify-between mt-5">
+                    <div className="flex flex-col justify-center items-center text-center border-r border-black pe-5">
+                      <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                        {count1}+
                       </p>
-                      <p className="text-center font-Inter font-normal max-w-[90px] text-base !leading-[120%] text-[#2B2B2B]">
+                      <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
                         Years of experience
                       </p>
                     </div>
-                    <div className="w-[1px] bg-black h-28 lg:hidden"></div>
-                    <div className="lg:pt-10 lg:pb-8 border-b lg:border-black text-center flex flex-col justify-center items-center md:pe-10">
-                      <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
-                        {count3}+
+                    <div className="flex flex-col justify-center items-center text-center border-r border-black pe-5">
+                      <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                        {count1}+
                       </p>
-                      <p className="text-center font-Inter font-normal text-base max-w-[90px] !leading-[120%] text-[#2B2B2B]">
+                      <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                        Years of experience
+                      </p>
+                    </div>
+                    <div className="flex flex-col justify-center items-center text-center border-r border-black pe-5">
+                      <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                        {count1}+
+                      </p>
+                      <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
                         Years of experience
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className=" flex justify-start items-start lg:justify-end lg:items-end border-r border-black">
+              <div className="flex justify-end items-end">
                 <Image
-                  className="mt-5 md:mt-10 lg:mt-0"
+                  className="mt-5 md:mt-0 lg:mt-0"
                   src="/assets/img/Webp/header_first_img.webp"
                   width={180}
                   height={359}
@@ -108,53 +101,76 @@ const Header = () => {
                 />
               </div>
             </div>
-            <Image
-              className="absolute left-0 lg:-left-[13.2%] top-[100%] lg:top-[82%] lg:max-w-[996px] xl:max-w-[1118px] w-full"
-              src="/assets/img/Webp/header_second_img.webp"
-              width={1087}
-              height={439}
-              alt="header-second-image-big"
-            />
-          </div>
-          <div className="w-full lg:w-[15%]">
-            <div className="flex md:hidden lg:flex lg:flex-col items-center justify-between py-5">
-              <div className="text-center lg:px-4 border-b lg:border-black lg:pb-8 lg:h-[325px] flex flex-col justify-center lg:justify-between items-cente">
-                <div className="xl:ps-14 xl:pt-10 hidden lg:block">
-                  {/* <Headerhalfcircle /> */}
-                  <Image
-                    
-                    src="/assets/img/Svg.Ellipse.svg"
-                    width={187}
-                    height={139}
-                    alt="header-second-image-big"
-                  />
-                </div>
-                <div>
-                  <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+            <div className="w-full md:hidden py-5">
+              <div className="flex justify-between">
+                <div className="flex flex-col justify-center items-center text-center border-r border-black pe-5">
+                  <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
                     {count1}+
                   </p>
-                  <p className="text-center font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                  <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                    Years of experience
+                  </p>
+                </div>
+                <div className="flex flex-col justify-center items-center text-center border-r border-black pe-5">
+                  <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                    {count1}+
+                  </p>
+                  <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                    Years of experience
+                  </p>
+                </div>
+                <div className="flex flex-col justify-center items-center text-center  pe-5">
+                  <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                    {count1}+
+                  </p>
+                  <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
                     Years of experience
                   </p>
                 </div>
               </div>
-              <div className="w-[1px] bg-black h-28 lg:hidden"></div>
-              <div className="lg:pt-10 lg:pb-8 border-b lg:border-black text-center flex flex-col justify-center items-center">
-                <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
-                  {count2}
-                </p>
-                <p className="text-center font-Inter font-normal max-w-[90px] text-base !leading-[120%] text-[#2B2B2B]">
-                  Years of experience
-                </p>
-              </div>
-              <div className="w-[1px] bg-black h-28 lg:hidden"></div>
-              <div className="lg:pt-10 lg:pb-8 border-b lg:border-black text-center flex flex-col justify-center items-center md:pe-10">
-                <p className="text-center font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
-                  {count3}+
-                </p>
-                <p className="text-center font-Inter font-normal text-base max-w-[90px] !leading-[120%] text-[#2B2B2B]">
-                  Years of experience
-                </p>
+            </div>
+            <div className="w-full">
+              <Image
+                className="lg:max-w-[861px] xl:!max-w-[1186px] lg:-translate-x-3 xl:-translate-x-[200px] 2xl:-translate-x-[180px]"
+                src="/assets/img/Webp/header_second_img.webp"
+                width={1087}
+                height={439}
+                alt="header-second-image-big"
+              />
+            </div>
+          </div>
+          <div className="lg:w-[15%] xl:w-[17.7%] 2xl:w-[15%]">
+            <div className="hidden lg:block">
+              <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between items-center text-center border-b border-black h-[305px] pb-8 pt-8">
+                  <div className="pl-8">
+                    <Headerhalfcircle />
+                  </div>
+                  <div>
+                    <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                      {count1}+
+                    </p>
+                    <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                      Years of experience
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center text-center border-b border-black pt-10 pb-8">
+                  <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                    {count2}+
+                  </p>
+                  <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                    Years of experience
+                  </p>
+                </div>
+                <div className="flex flex-col justify-center items-center text-center border-b border-black pt-10 pb-8">
+                  <p className="font-Inter font-normal text-3xl md:text-5xl !leading-[120%] text-[#2B2B2B]">
+                    {count3}+
+                  </p>
+                  <p className="font-Inter max-w-[90px] font-normal text-base !leading-[120%] text-[#2B2B2B]">
+                    Years of experience
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -164,4 +180,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

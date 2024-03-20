@@ -120,7 +120,7 @@ export const Instagram = () => {
 export const Headerunderline = () => {
   return (
     <svg
-      className="max-w-[456px] w-full"
+      className="max-w-[520px] w-full"
       height="18"
       viewBox="0 0 496 18"
       fill="none"
@@ -194,7 +194,6 @@ export const Headerhalfcircle = () => {
     </svg>
   );
 };
-
 export const PreButton = () => {
   return (
     <div>
