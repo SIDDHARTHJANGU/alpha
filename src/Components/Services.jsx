@@ -88,7 +88,7 @@ const Services = () => {
                   chambray bird on. Organic farm-to-table iceland knausgaard
                   heirloom.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[984px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[984px] xl:h-[500px]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
@@ -114,7 +114,7 @@ const Services = () => {
                   consectetur. In ultricies, quam et ultrices cursus, sem justo
                   interdum mi, sit amet pulvinar tellus neque vel lorem.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
@@ -142,7 +142,7 @@ const Services = () => {
                   augue iaculis vulputate ac id tortor. Integer nec nisi eget
                   arcu ultricies suscipit id nec libero. Aliquam erat volutpat.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
@@ -170,7 +170,7 @@ const Services = () => {
                   ultricies convallis tortor, nec lacinia eros fringilla at.
                   Duis efficitur ante justo, ac viverra urna dictum nec.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
@@ -199,7 +199,7 @@ const Services = () => {
                   purus congue ut. Proin pretium, sem quis viverra eleifend,
                   elit risus lobortis lectus, nec volutpat urna leo at ex.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
