@@ -2,7 +2,7 @@ import React from "react";
 import footerlogo from "../../public/assets/img/svg/footer_logo.svg";
 import Image from "next/image";
 import { Facebook, Instagram, LinkeDin } from "./Common/Icons";
-import footer_bg_img from "../../public/assets/img/webp/footer_img.png";
+import footer_bg_img from "../../public/assets/img/webp/footer_img.webp";
 
 export const MyFooter = () => {
   return (
@@ -16,8 +16,8 @@ export const MyFooter = () => {
           height={63}
         />
       </div>
-      <div className="container max-w-[1140px] mx-auto px-3">
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-0  justify-center sm:justify-between items-center pt-[130px] md:pt-[229px] pb-6">
+      <div className="container max-w-[1100px] mx-auto px-3">
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-0 justify-center sm:justify-between items-center pt-[130px] md:pt-[229px] pb-6 ">
           <div>
             <Image src={footerlogo} alt="logo" width={207} height={63} />
           </div>

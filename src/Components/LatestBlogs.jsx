@@ -1,9 +1,8 @@
 import React from "react";
-// import { HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
-import businessimg from "../../public/assets/img/webp/business.png";
-import planimg from "../../public/assets/img/webp/plan.png";
-import braniimg from "../../public/assets/img/webp/brainstorm.png";
+import businessimg from "../../public/assets/img/webp/business.webp";
+import planimg from "../../public/assets/img/webp/plan.webp";
+import braniimg from "../../public/assets/img/webp/brainstorm.webp";
 import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
 import latesttopelip from "../../public/assets/img/svg/latest_blog_top_elip.svg";
 import latestbottomelip from "../../public/assets/img/svg/latest_blog_bottom_elip.svg";
@@ -23,10 +22,10 @@ const LatestBlogs = () => {
           alt="latestbottomelip"
         />
       </div>
-      <div className="container max-w-[1152px] mx-auto px-3  relative ">
+      <div className="container max-w-[1100px] mx-auto px-3  relative ">
         <div className=" absolute left-[4.5%] hidden sm:block top-0 h-[148px] border-l-[1px] border-[#2b2b2b] z-40"></div>
-        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex flex-col justify-center items-center lg:mr-8 lg:items-start border-[#2B2B2B]">
-          <div className=" relative z-10">
+        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex flex-col justify-center items-center  lg:items-start border-[#2B2B2B]">
+          <div className=" relative z-10 ms-3">
             <Image
               className="absolute w-[10%] top-0 left-[-10px] xl:left-[-15px] -z-10"
               src={gotelip}

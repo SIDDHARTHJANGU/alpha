@@ -1,21 +1,23 @@
-// import Header from "@/Components/Header";
 import GotAQuestion from "@/Components/GotAQuestion";
 import LatestBlogs from "@/Components/LatestBlogs";
-import { MyFooter } from "@/Components/MyFooter";
-import OurWork from "@/Components/OurWork";
-// import Nav from "@/Components/Nav";
 import Quote from "@/Components/Quote";
+import { MyFooter } from "@/Components/Myfooter";
+import Hero from "@/Components/Header";
+import Services from "@/Components/Services";
+import Sidebar from "@/Components/Nav";
+import OurWork from "@/Components/OurWork";
 
 export default function Home() {
   return (
-    <>
-      {/* <Nav /> */}
-      {/* <Header /> */}
+    <div className=" !overflow-hidden">
+      <Sidebar />
+      <Hero />
+      <Services />
       <OurWork />
       <Quote />
       <LatestBlogs />
       <GotAQuestion />
       <MyFooter />
-    </>
+    </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
-import grafimg from "../../public/assets/img/webp/graf_img.png";
+import grafimg from "../../public/assets/img/webp/graf_img.webp";
 import triangleelip from "../../public/assets/img/svg/triangle_elip.svg";
 import fivecircle from "../../public/assets/img/svg/five_circle.svg";
 import Image from "next/image";
@@ -20,12 +20,12 @@ const OurWork = () => {
           alt="fivecircle"
         />
       </div>
-      <div className="container max-w-[1152px] mx-auto px-3 relative ">
+      <div className="container max-w-[1100px] mx-auto px-3 relative">
         <div className=" absolute left-[4.5%]  top-0 xl:h-[230px] lg:h-[150px] md:h-[55px] h-[45px] border-l-[1px] border-[#2b2b2b] z-40"></div>
-        <div className=" xl:pt-[245px] pt-12 xl:pb-[133px] lg:pb-[100px] lg:pt-[150px] pb-12 border-r-[1px] border-[#2B2B2B]">
-          <div className=" relative">
+        <div className=" xl:pt-[245px] pt-12 xl:pb-[133px] lg:pb-[100px] lg:pt-[150px] pb-12 border-r-[1px] border-[#2B2B2B] ">
+          <div className=" relative ms-3">
             <Image
-              className="absolute  top-0 left-[-10px] xl:left-[-15px] -z-10"
+              className="absolute xl:max-w-[74px] w-[30px] md:w-[40px] xl:h-[74px] h-[36px] md:h-[59px]  top-0 left-[-10px] xl:left-[-15px] -z-10"
               src={gotelip}
               alt="gotelip"
             />
@@ -106,7 +106,7 @@ const OurWork = () => {
             </div>
             <div>
               <Image
-                className=" max-w-[459px] w-full min-h-[550px] mt-6 lg:mt-0"
+                className=" max-w-[459px] w-full lg:min-h-[550px] mt-6 lg:mt-0"
                 src={grafimg}
                 alt="grafimg"
               />

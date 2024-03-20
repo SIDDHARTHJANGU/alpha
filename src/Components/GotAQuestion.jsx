@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
-import gotsecimg from "../../public/assets/img/webp/got_sec_img.png";
+import gotsecimg from "../../public/assets/img/webp/got_sec_img.webp";
 import alphaelip from "../../public/assets/img/svg/alpha_ellips.svg";
 
 const GotAQuestion = () => {
@@ -14,13 +14,13 @@ const GotAQuestion = () => {
           alt="alphaelip"
         />
       </div>
-      <div className="container max-w-[1140px] mx-auto px-3 relative">
+      <div className="container max-w-[1100px] mx-auto px-3 relative">
         <div className=" absolute left-[7%] hidden md:block top-0 h-20 border-l-[1px] border-[#f6f6f6] z-40"></div>
-        <div className="flex  flex-col md:flex-row  justify-evenly xl:gap-[86px] xl:pt-[96px] pt-12">
+        <div className="flex  flex-col md:flex-row sm:justify-center  md:justify-evenly xl:gap-[86px] xl:pt-[96px] pt-12">
           <div>
             <div className="relative z-40 ms-3 xl:ms-[15px]">
               <Image
-                className=" w-[6%] absolute top-0 left-[-10px] xl:left-[-15px] -z-10"
+                className=" w-[6%] absolute  top-0 left-[-10px] xl:left-[-15px] -z-10"
                 src={gotelip}
                 alt="gotelip"
               />
@@ -49,7 +49,7 @@ const GotAQuestion = () => {
           </div>
           <div>
             <Image
-              className="md:translate-y-[20%] md:mt-[-40px] pb-12 mt-6 z-50 xl:max-w-[376px] md:h-[500px] lg:h-[550px] w-full xl:h-[605px]"
+              className="md:translate-y-[20%] md:mt-[-40px] pb-12 mt-6 z-50 xl:max-w-[376px] md:h-[500px] lg:h-[550px] sm:max-w-[400px] w-full xl:h-[605px]"
               src={gotsecimg}
               alt="gotsecimg"
             />

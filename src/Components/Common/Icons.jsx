@@ -121,6 +121,7 @@ export const PreButton = () => {
   return (
     <div>
       <svg
+        className="pre_button"
         width="92"
         height="16"
         viewBox="0 0 92 16"
@@ -138,7 +139,7 @@ export const PreButton = () => {
 export const Headerunderline = () => {
   return (
     <svg
-      width="496"
+      className="max-w-[520px] w-full"
       height="18"
       viewBox="0 0 496 18"
       fill="none"
@@ -212,5 +213,3 @@ export const Headerhalfcircle = () => {
     </svg>
   );
 };
- 
- 
