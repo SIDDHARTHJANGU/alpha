@@ -26,10 +26,10 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="bg-common-white-bg">
-      <div className="relative max-w-[1080px] mx-auto px-3 xl:px-0 pt-5 pb-6 z-10">
+    <div className="bg-common-white-bg z-40 relative">
+      <div className="relative max-w-[1080px] mx-auto px-3 xl:px-0 pt-[19px] pb-[19px] z-10">
         <Image
-          className="absolute top-10  -left-40 -z-10"
+          className="absolute top-10 -left-40 -z-10"
           src="/assets/img/Svg/header_alpha.svg"
           alt="alphaelip"
           width={140}
@@ -47,11 +47,11 @@ const Sidebar = () => {
           {!isSidebarOpen && (
             <button
               onClick={toggleSidebar}
-              className="z-30 cursor-pointer flex flex-col justify-between items-center h-4 w-6"
+              className="z-30 cursor-pointer flex flex-col justify-between items-center  "
             >
-              <span className="block w-6 h-[2px] bg-black mb-1"></span>
-              <span className="block w-6 h-[2px] bg-black mb-1"></span>
-              <span className="block w-6 h-[2px] bg-black"></span>
+              <span className="block w-6 h-1 bg-black"></span>
+              <span className="block w-6 h-1 bg-black my-1"></span>
+              <span className="block w-6 h-1 bg-black"></span>
             </button>
           )}
         </div>
@@ -66,7 +66,7 @@ const Sidebar = () => {
             ></div>
 
             {/* Sidebar */}
-            <div className="absolute top-0 right-0 h-full z-50 w-64 bg-white pt-3 pb-6 transition-transform duration-300">
+            <div className="absolute top-0 right-0 h-full z-50 w-60 md:w-80 lg:w-96 bg-white pt-3 pb-6 transition-transform duration-300 ease-in-out">
               {/* Close button moves to the top left of the sidebar */}
               <div className="absolute top-0 left-0 pt-3 pl-3">
                 <button

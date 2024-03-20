@@ -40,13 +40,13 @@ const Services = () => {
         width={130}
         height={170}
       />
-      <div className="max-w-[1080px] mx-auto px-3 xl:px-0 relative">
+      <div className="container max-w-[1152px] mx-auto px-3 xl:px-0 relative">
         <div className="absolute left-8 top-0 hidden lg:block lg:h-[50px] xl:h-[90px] border-l border-white"></div>
-        <div className="flex flex-wrap justify-between pt-10 md:pt-[60px] xl:pt-[96px]">
-          <div className="w-full md:w-[35%] lg:w-[35%]">
+        <div className="flex flex-wrap justify-between pt-10 md:pt-[60px] lg:pb-[60px] xl:py-[98px]">
+          <div className="w-full md:w-[35%] lg:w-[29%] 2xl:w-[35%]">
             <div className=" relative z-10">
               <Image
-                className="absolute w-[10%] top-0 left-[-10px] xl:left-[-15px] -z-10"
+                className="absolute xl:max-w-[74px] w-[30px] md:w-[40px] xl:h-[74px] h-[36px]  md:h-[59px] top-0 left-[-10px] xl:left-[-15px] -z-10"
                 src="/assets/img/Svg/got_bg_elip.svg"
                 alt="gotelip"
                 width={74}
@@ -56,7 +56,7 @@ const Services = () => {
                 Services
               </h2>
             </div>
-            <div className="flex flex-col w-full md:w-[250px] lg:w-[330px] mt-1 lg:mt-[44px]">
+            <div className="flex flex-col w-full md:w-[250px] xl:w-[330px] mt-1 lg:mt-[44px]">
               {tabs.map((tab, index) => (
                 <button
                   key={index}
@@ -74,7 +74,7 @@ const Services = () => {
               ))}
             </div>
           </div>
-          <div className="w-full md:w-[60%] lg:w-[65%] pt-6 lg:relative">
+          <div className="w-full md:w-[60%] lg:w-[67%] 2xl:w-[65%] pt-6 lg:relative text-center md:text-start">
             <p className="font-Inter font-normal text-base !leading-[121%] text-[#b9b9b9] max-w-[690px]">
               {/* Content for each tab */}
               {activeTab === 0 && (
@@ -88,13 +88,13 @@ const Services = () => {
                   chambray bird on. Organic farm-to-table iceland knausgaard
                   heirloom.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:translate-x-[10%] xl:max-w-[900px] xl:h-[400px] 2xl:max-w-[984px] 2xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[984px] xl:h-[500px] 2xl:translate-x-[13.3%]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
                     alt="header-first-image-small"
                   />
-                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-x-[400px] 2xl:translate-x-[500px]">
+                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[510px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
                     <div>
                       <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                         {count1}+
@@ -114,13 +114,13 @@ const Services = () => {
                   consectetur. In ultricies, quam et ultrices cursus, sem justo
                   interdum mi, sit amet pulvinar tellus neque vel lorem.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:translate-x-[10%] xl:max-w-[900px] xl:h-[400px] 2xl:max-w-[984px] 2xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
                     alt="header-first-image-small"
                   />
-                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-x-[400px] 2xl:translate-x-[500px]">
+                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[470px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
                     <div>
                       <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                         {count1}+
@@ -142,13 +142,13 @@ const Services = () => {
                   augue iaculis vulputate ac id tortor. Integer nec nisi eget
                   arcu ultricies suscipit id nec libero. Aliquam erat volutpat.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:translate-x-[10%] xl:max-w-[900px] xl:h-[400px] 2xl:max-w-[984px] 2xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
                     alt="header-first-image-small"
                   />
-                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-x-[400px] 2xl:translate-x-[500px]">
+                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[470px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
                     <div>
                       <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                         {count1}+
@@ -170,13 +170,13 @@ const Services = () => {
                   ultricies convallis tortor, nec lacinia eros fringilla at.
                   Duis efficitur ante justo, ac viverra urna dictum nec.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:translate-x-[10%] xl:max-w-[900px] xl:h-[400px] 2xl:max-w-[984px] 2xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
                     alt="header-first-image-small"
                   />
-                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-x-[400px] 2xl:translate-x-[500px]">
+                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[470px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
                     <div>
                       <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                         {count1}+
@@ -199,13 +199,13 @@ const Services = () => {
                   purus congue ut. Proin pretium, sem quis viverra eleifend,
                   elit risus lobortis lectus, nec volutpat urna leo at ex.
                   <Image
-                    className="mt-7 lg:absolute lg:translate-x-0 xl:translate-x-[10%] xl:max-w-[900px] xl:h-[400px] 2xl:max-w-[984px] 2xl:h-[500px] 2xl:translate-x-[13.3%]"
+                    className="mt-7 lg:absolute lg:translate-x-0 xl:max-w-[900px] xl:h-[500px] 2xl:max-w-[984px] 2xl:translate-x-[13.3%]"
                     src="/assets/img/Webp/service_img.webp"
                     width={984}
                     height={500}
                     alt="header-first-image-small"
                   />
-                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-x-[400px] 2xl:translate-x-[500px]">
+                  <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[470px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
                     <div>
                       <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                         {count1}+

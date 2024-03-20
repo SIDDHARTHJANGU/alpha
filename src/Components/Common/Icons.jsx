@@ -212,4 +212,4 @@ export const Headerhalfcircle = () => {
       </defs>
     </svg>
   );
-};
+}; 
