@@ -50,11 +50,11 @@ const LatestBlogs = () => {
                     alt="business"
                   />
                   <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
-                    <h3 className="font-semibold text-md font-Inter text-white">
+                    <h3 className="font-semibold text-[20px] font-Inter text-white">
                       Esther Howard
                     </h3>
-                    <p className="text-sm text-[#b9b9b9] font-Inter font-normal leading-[160%]">
-                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                    <p className="text-[16px] text-[#b9b9b9] font-Inter font-normal leading-[160%]">
+                      Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
                       Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>
@@ -74,11 +74,11 @@ const LatestBlogs = () => {
                     alt="business"
                   />
                   <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9min-[1000px]:left-0 min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
-                    <h3 className="font-semibold text-md font-Inter text-white">
+                    <h3 className="font-semibold text-[20px] font-Inter text-white">
                       Esther Howard
                     </h3>
-                    <p className="text-sm text-[#b9b9b9] font-Inter font-normal">
-                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                    <p className="text-[16px] text-[#b9b9b9] font-Inter font-normal leading-[160%]">
+                      Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
                       Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>
@@ -98,11 +98,11 @@ const LatestBlogs = () => {
                     alt="business"
                   />
                   <div className="bg-[#2B2B2B] absolute transition-all duration-300 ease-out left-8 min-[1000px]:left-[15px] min-[1030px]:left-9 top-[100%] group-hover:top-[52%] lg:group-hover:top-[90%] pt-[20px] pl-[13px] pb-[20px] max-w-[264.47px] pr-[30px]">
-                    <h3 className="font-semibold text-md font-Inter text-white">
+                    <h3 className="font-semibold text-[20px] font-Inter text-white">
                       Esther Howard
                     </h3>
-                    <p className="text-sm text-[#b9b9b9] font-Inter font-normal">
-                      Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo
+                    <p className="text-[16px] text-[#b9b9b9] font-Inter font-normal leading-[160%]">
+                      Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
                       Sartorial Out Celiac Af Beard Sartorial.{" "}
                     </p>
                   </div>

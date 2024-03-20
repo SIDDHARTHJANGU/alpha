@@ -39,7 +39,7 @@ const Quote = () => {
               Marketing Coordinator
             </p>
             <p className=" font-Inter font-normal text-[16px]  text-[#b9b9b9] max-w-[574px] mt-4">
-              Hipster Ipsum Tattooed Brunch I'm Baby. Shaman Venmo Sartorial Out
+              Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo Sartorial Out
               Celiac Af Beard Sartorial. Trade Shabby Cleanse Actually Chic
               Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore Lyft Letterpress
               Church-Key. Pinterest Dreamcatcher{" "}
