@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import gotelip from "../../public/assets/img/Svg/got_bg_elip.svg";
-import gotsecimg from "../../public/assets/img/Webp/got_sec_img.png";
-import alphaelip from "../../public/assets/img/Svg/alpha_ellips.svg";
+import gotelip from "../../public/assets/img/svg/got_bg_elip.svg";
+import gotsecimg from "../../public/assets/img/webp/got_sec_img.png";
+import alphaelip from "../../public/assets/img/svg/alpha_ellips.svg";
 
 const GotAQuestion = () => {
   return (
-    <div className=" bg-common-black-bg xl:pt-[96px] pt-12 z-30 relative ">
+    <div className=" bg-common-black-bg  z-30 relative ">
       <div>
         <Image
           className="absolute top-0 lg:h-[95%] md:h-[95%] h-[35%] xl:h-[100%] left-0 -z-10"
@@ -15,8 +15,8 @@ const GotAQuestion = () => {
         />
       </div>
       <div className="container max-w-[1140px] mx-auto px-3 relative">
-        <div className=" absolute left-[7%] hidden lg:block top-[-17%] h-20 border-l-[1px] border-[#f6f6f6] z-40"></div>
-        <div className="flex  flex-col md:flex-row  justify-evenly xl:gap-[86px]">
+        <div className=" absolute left-[7%] hidden md:block top-0 h-20 border-l-[1px] border-[#f6f6f6] z-40"></div>
+        <div className="flex  flex-col md:flex-row  justify-evenly xl:gap-[86px] xl:pt-[96px] pt-12">
           <div>
             <div className="relative z-40 ms-3 xl:ms-[15px]">
               <Image
@@ -43,7 +43,7 @@ const GotAQuestion = () => {
                 placeholder="How We Can Help ?"
               ></textarea>
             </div>
-            <button className=" font-semibold text-[16px] font-Inter text-white py-[15.5px] px-[38.4px] bg-[linear-gradient(0deg,#ff5269_-50%,#ff684d_100%)] lg:mt-12 mt-6">
+            <button className=" font-semibold text-[16px] font-Inter text-white lg:py-[15.5px] lg:px-[38.4px] py-[12px] px-[25px] bg-[linear-gradient(0deg,#ff5269_-50%,#ff684d_100%)] lg:mt-12 mt-6">
               SEND MESSAGE
             </button>
           </div>

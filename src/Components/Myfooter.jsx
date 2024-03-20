@@ -1,10 +1,10 @@
 import React from "react";
-import footerlogo from "../../public/assets/img/Svg/footer_logo.svg";
+import footerlogo from "../../public/assets/img/svg/footer_logo.svg";
 import Image from "next/image";
 import { Facebook, Instagram, LinkeDin } from "./Common/Icons";
-import footer_bg_img from "../../public/assets/img/Webp/footer_img.png";
+import footer_bg_img from "../../public/assets/img/webp/footer_img.png";
 
-export const Myfooter = () => {
+export const MyFooter = () => {
   return (
     <div className="bg-common-dark-black-bg relative ">
       <div>
