@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const OurWork = () => {
   return (
-    <div className="relative">
+    <div id="work" className="relative">
       <div>
         <Image
           className="absolute bottom-[35px] hidden lg:block left-[35px] -z-10"

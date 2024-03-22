@@ -32,7 +32,7 @@ export const MyFooter = () => {
             </li>
             <li>
               <a
-                href="#ourwork"
+                href="#work"
                 className="font-normal font-Inter text-[16px] text-[#b6b6b6] hover:text-white duration-300 transition-all ease-in-out"
               >
                 Our Work
@@ -40,7 +40,7 @@ export const MyFooter = () => {
             </li>
             <li>
               <a
-                href="#Services"
+                href="#services"
                 className="font-normal font-Inter text-[16px] text-[#b6b6b6] hover:text-white duration-300 transition-all ease-in-out"
               >
                 Services

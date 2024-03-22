@@ -6,7 +6,7 @@ import alphaelip from "../../public/assets/img/svg/alpha_ellips.svg";
 
 const GotAQuestion = () => {
   return (
-    <div className="bg-common-black-bg z-30 relative">
+    <div id="contact" className="bg-common-black-bg z-30 relative">
       <div>
         <Image
           className="absolute top-0 lg:h-[95%] md:h-[95%] h-[35%] xl:h-[100%] left-0 -z-10"
@@ -43,7 +43,7 @@ const GotAQuestion = () => {
                 placeholder="How We Can Help ?"
               ></textarea>
             </div>
-            <button className="font-semibold text-[16px] font-Inter text-white lg:py-[15.5px] lg:px-[38.4px] py-[12px] px-[25px] bg-[linear-gradient(0deg,#ff5269_-50%,#ff684d_100%)] lg:mt-12 mt-6">
+            <button className="font-semibold text-[16px] font-Inter text-white lg:py-[15.5px] lg:px-[38.4px] py-[12px] px-[25px] bg-[linear-gradient(0deg,#ff5269_-50%,#ff684d_100%)] hover:bg-[linear-gradient(0deg,#ff684d_-50%,#ff5269_100%)] lg:mt-12 mt-6">
               SEND MESSAGE
             </button>
           </div>

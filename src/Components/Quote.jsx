@@ -39,7 +39,7 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pb-[48px] md:pb-[65px] lg:pb-[100px] xl:pb-[173px] relative overflow-hidden">
+      <div id="quote" className="bg-[#2B2B2B] pb-[48px] md:pb-[65px] lg:pb-[100px] xl:pb-[173px] relative overflow-hidden">
         <div>
           <Image
             className="absolute hidden lg:block bottom-[50px] right-[57px] "

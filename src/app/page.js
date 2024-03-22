@@ -3,15 +3,15 @@ import LatestBlogs from "@/Components/LatestBlogs";
 import Quote from "@/Components/Quote";
 import Hero from "@/Components/Header";
 import Services from "@/Components/Services";
-import Sidebar from "@/Components/Nav";
 import OurWork from "@/Components/OurWork";
 import About from "@/Components/About";
 import { MyFooter } from "@/Components/MyFooter";
+import Nav from "@/Components/Nav";
 
 export default function Home() {
   return (
-    <div className=" !overflow-hidden">
-      <Sidebar />
+    <div className=" !overflow-hidden ">
+      <Nav />
       <Hero />
       <About />
       <Services />

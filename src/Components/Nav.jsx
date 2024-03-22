@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-const Sidebar = () => {
+const Nav = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -50,9 +50,9 @@ const Sidebar = () => {
               onClick={toggleSidebar}
               className="z-30 cursor-pointer flex flex-col justify-between items-center  "
             >
-              <span className="block w-6 h-1 bg-black"></span>
-              <span className="block w-6 h-1 bg-black my-1"></span>
-              <span className="block w-6 h-1 bg-black"></span>
+              <span className="block w-[30px] md:w-[42px] h-1 bg-black"></span>
+              <span className="block w-[30px] md:w-[42px] h-1 bg-black my-2"></span>
+              <span className="block w-[30px] md:w-[42px] h-1 bg-black"></span>
             </button>
           )}
         </div>
@@ -67,21 +67,30 @@ const Sidebar = () => {
             ></div>
 
             {/* Sidebar */}
-            <div className="absolute top-0 right-0 h-full z-50 w-60 md:w-80 lg:w-96 bg-white pt-3 pb-6 transition-transform duration-300 ease-in-out">
+            <div className="absolute top-0 right-0 h-full z-50 w-60 md:w-80 lg:w-96 bg-white pt-3 pb-6 duration-1000 ease-in-out">
               {/* Close button moves to the top left of the sidebar */}
               <div className="absolute top-0 left-0 pt-3 pl-3">
                 <button
                   onClick={toggleSidebar}
                   className="cursor-pointer flex flex-col justify-between items-center h-4 w-6 relative"
                 >
-                  <span className="block w-6 h-[2px] bg-black rotate-45 translate-y-3"></span>
-                  <span className="block w-6 h-[2px] bg-black -rotate-45 -translate-y-[1px]"></span>
+                  <span className="block w-[30px] md:w-[42px] h-1 bg-black rotate-45 translate-y-3"></span>
+                  <span className="block w-[30px] md:w-[42px] h-1 bg-black -rotate-45"></span>
                 </button>
               </div>
               <ul className="mt-10 flex flex-col gap-6 justify-center items-center text-center min-h-full">
                 <li>
                   <a
-                    href="#"
+                    href="#home"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#about"
                     className="text-black text-lg"
                     onClick={handleLinkClick}
                   >
@@ -90,7 +99,16 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#services"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#work"
                     className="text-black text-lg"
                     onClick={handleLinkClick}
                   >
@@ -99,11 +117,29 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#quote"
                     className="text-black text-lg"
                     onClick={handleLinkClick}
                   >
-                    Services
+                    Quote
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#latest"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    LATEST BLOG
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    className="text-black text-lg"
+                    onClick={handleLinkClick}
+                  >
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -115,4 +151,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Nav;

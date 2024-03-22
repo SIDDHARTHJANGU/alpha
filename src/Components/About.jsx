@@ -5,7 +5,7 @@ import aboutmain from "../../public/assets/img/webp/about_main.webp";
 
 const About = () => {
   return (
-    <div className="bg-common-white-bg relative">
+    <div id="about" className="bg-common-white-bg relative">
       <Image
         className="absolute w-[95px] h-[95px] bottom-5 xl:bottom-24 left-5 hidden lg:block"
         src="/assets/img/svg/about_circle.svg"

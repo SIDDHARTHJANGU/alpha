@@ -33,7 +33,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-common-black-bg relative z-10">
+    <div id="services" className="bg-common-black-bg relative z-10">
       <Image
         className="absolute top-0 xl:top-20 left-0 -z-10"
         src="/assets/img/svg/alpha_ellips.svg"

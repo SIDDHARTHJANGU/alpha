@@ -9,7 +9,7 @@ import latestbottomelip from "../../public/assets/img/svg/latest_blog_bottom_eli
 
 const LatestBlogs = () => {
   return (
-    <div className="bg-[#eceae7] relative">
+    <div id="latest" className="bg-[#eceae7] relative">
       <div>
         <Image
           className="absolute top-[38%] w-[64px] h-[82px] hidden md:block left-[28px]"
