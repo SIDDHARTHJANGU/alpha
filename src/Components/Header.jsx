@@ -42,7 +42,7 @@ const Hero = () => {
         <div className=" border-t border-black border-r relative">
           <div className="absolute w-[1px] h-[43px] bg-black top-0 left-0"></div>
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-[85%] xl:w-[84%] 2xl:w-[85%] border-r border-black">
+            <div className="w-full lg:w-[85%] xl:w-[87%] 2xl:w-[85%] border-r border-black">
               <div className="flex justify-between">
                 <div>
                   <p className="font-Inter font-normal text-xl !leading-[121%] text-[#2B2B2B] mt-6 md:mt-[70px] uppercase">
@@ -141,13 +141,13 @@ const Hero = () => {
                 <Image
                   className="lg:max-w-[861px] xl:!max-w-[1186px] lg:-translate-x-3 xl:-translate-x-[180px] 2xl:-translate-x-[180px]"
                   src="/assets/img/Webp/header_second_img.webp"
-                  width={1087}
+                  width={1187}
                   height={439}
                   alt="header-second-image-big"
                 />
               </div>
             </div>
-            <div className="lg:w-[15%] xl:w-[16%] 2xl:w-[15%]">
+            <div className="lg:w-[15%] xl:w-[13%] 2xl:w-[15%]">
               <div className="hidden lg:block">
                 <div className="flex flex-col justify-between">
                   <div className="flex flex-col justify-between items-center text-center border-b border-black h-[305px] pb-8 pt-8">
