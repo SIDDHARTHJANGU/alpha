@@ -186,7 +186,7 @@ export const Bttnarrow = () => {
 };
 export const Headerhalfcircle = () => {
   return (
-    <svg
+    <svg 
       width="56"
       height="70"
       viewBox="0 0 56 70"
@@ -212,4 +212,4 @@ export const Headerhalfcircle = () => {
       </defs>
     </svg>
   );
-}; 
+};

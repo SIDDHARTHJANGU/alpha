@@ -6,10 +6,10 @@ import footer_bg_img from "../../public/assets/img/webp/footer_img.webp";
 
 export const MyFooter = () => {
   return (
-    <div className="bg-common-dark-black-bg relative ">
+    <div className="bg-common-dark-black-bg relative">
       <div>
         <Image
-          className=" absolute top-0 left-0 max-w-[293px] w-full"
+          className="absolute top-0 left-0 max-w-[293px] w-full"
           src={footer_bg_img}
           alt="footer_bg_img"
           width={293}
@@ -17,7 +17,7 @@ export const MyFooter = () => {
         />
       </div>
       <div className="container max-w-[1100px] mx-auto px-3">
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-0 justify-center sm:justify-between items-center pt-[130px] md:pt-[229px] pb-6 ">
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-0 justify-center sm:justify-between items-center pt-[130px] md:pt-[229px] pb-6">
           <div>
             <Image src={footerlogo} alt="logo" width={207} height={63} />
           </div>
@@ -25,7 +25,7 @@ export const MyFooter = () => {
             <li>
               <a
                 href="#about"
-                className="font-normal font-Inter text-[16px] text-[#b6b6b6]"
+                className="font-normal font-Inter text-[16px] text-[#b6b6b6] hover:text-white duration-300 transition-all ease-in-out"
               >
                 About Us
               </a>
@@ -33,7 +33,7 @@ export const MyFooter = () => {
             <li>
               <a
                 href="#ourwork"
-                className="font-normal font-Inter text-[16px] text-[#b6b6b6]"
+                className="font-normal font-Inter text-[16px] text-[#b6b6b6] hover:text-white duration-300 transition-all ease-in-out"
               >
                 Our Work
               </a>
@@ -41,20 +41,29 @@ export const MyFooter = () => {
             <li>
               <a
                 href="#Services"
-                className="font-normal font-Inter text-[16px] text-[#b6b6b6]"
+                className="font-normal font-Inter text-[16px] text-[#b6b6b6] hover:text-white duration-300 transition-all ease-in-out"
               >
                 Services
               </a>
             </li>
           </ul>
           <div className="flex gap-4">
-            <a href="https://www.linkedin.com/feed/">
+            <a
+              className=" hover:translate-y-[-5px] duration-300"
+              href="https://www.linkedin.com/feed/"
+            >
               <LinkeDin />
             </a>
-            <a href="https://www.facebook.com/">
+            <a
+              className=" hover:translate-y-[-5px] duration-300"
+              href="https://www.facebook.com/"
+            >
               <Facebook />
             </a>
-            <a href="https://www.instagram.com/?hl=en">
+            <a
+              className=" hover:translate-y-[-5px] duration-300"
+              href="https://www.instagram.com/?hl=en"
+            >
               <Instagram />
             </a>
           </div>
@@ -66,3 +75,5 @@ export const MyFooter = () => {
     </div>
   );
 };
+
+export default MyFooter;

@@ -29,14 +29,15 @@ const Sidebar = () => {
     <div className="bg-common-white-bg z-40 relative">
       <div className="relative max-w-[1080px] mx-auto px-3 xl:px-0 pt-[19px] pb-[19px] z-10">
         <Image
-          className="absolute top-10 -left-40 -z-10"
-          src="/assets/img/Svg/header_alpha.svg"
+          className="absolute top-0 -left-40 -z-10"
+          src="/assets/img/svg/header_alpha.svg"
           alt="alphaelip"
-          width={140}
+          width={150}
           height={170}
         />
         <div className="flex justify-between items-center">
           <Image
+            className=" cursor-pointer"
             src="/assets/img/svg/logo.svg"
             alt="Logo"
             width={153}
@@ -58,7 +59,7 @@ const Sidebar = () => {
 
         {/* Overlay and Sidebar */}
         {isSidebarOpen && (
-          <div className="fixed inset-0 z-40">
+          <div className="fixed inset-0 z-40 ">
             {/* Sidebar Overlay */}
             <div
               className="absolute inset-0 bg-black bg-opacity-50"

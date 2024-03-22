@@ -9,29 +9,29 @@ import latestbottomelip from "../../public/assets/img/svg/latest_blog_bottom_eli
 
 const LatestBlogs = () => {
   return (
-    <div className="bg-[#eceae7] relative ">
+    <div className="bg-[#eceae7] relative">
       <div>
         <Image
-          className="absolute top-[38%] left-[28px] "
+          className="absolute top-[38%] w-[64px] h-[82px] hidden md:block left-[28px]"
           src={latesttopelip}
           alt="latesttopelip"
         />
         <Image
-          className="absolute bottom-[9%] right-[28px] "
+          className="absolute bottom-[9%] lg:bottom-3 hidden sm:block xl:w-[66px] xl:h-[98px] lg:w-[65px] lg:h-[65px] right-[28px]"
           src={latestbottomelip}
           alt="latestbottomelip"
         />
       </div>
       <div className="container max-w-[1100px] mx-auto px-3  relative ">
-        <div className=" absolute left-[4.5%] hidden sm:block top-0 h-[148px] border-l-[1px] border-[#2b2b2b] z-40"></div>
-        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex flex-col justify-center items-center  lg:items-start border-[#2B2B2B]">
-          <div className=" relative z-10 ms-3">
+        <div className="absolute left-[5%]  top-0 xl:h-[148px] lg:h-[90px] md:h-[55px] h-[45px] border-l-[1px] border-[#2b2b2b] z-40"></div>
+        <div className="sm:border-r-[1px]  xl:pt-[171px] lg:py-[100px] py-[48px] md:py-[65px] xl:pb-[223px] flex flex-col justify-center items-center lg:items-start border-[#2B2B2B]">
+          <div className="relative z-10 ms-3">
             <Image
-              className="absolute w-[10%] top-0 left-[-10px] xl:left-[-15px] -z-10"
+              className="absolute xl:max-w-[74px] w-[30px] md:w-[40px] xl:h-[74px] h-[36px] md:h-[67px] top-0 left-[-10px] xl:left-[-15px] -z-10"
               src={gotelip}
               alt="gotelip"
             />
-            <h2 className=" font-Inter font-normal xl:text-[64px] lg:text-[58px] md:text-[50px] text-[32px] text-[#2b2b2b] leading-[120%]">
+            <h2 className="font-Inter font-normal xl:text-[64px] lg:text-[58px] md:text-[50px] text-[32px] text-[#2b2b2b] leading-[120%]">
               LATEST BLOG
             </h2>
           </div>
