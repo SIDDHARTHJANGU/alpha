@@ -12,7 +12,7 @@ import quotecircleimg from "../../public/assets/img/svg/quote_circle_elip.svg";
 const Quote = () => {
   const CustomNextArrow = ({ onClick }) => (
     <button
-      className="absolute top-[107%] sm:top-[53%] left-[18%] sm:left-[0%] rotate-[-180deg] z-[10]"
+      className="absolute top-[107%] sm:top-[50%] left-[25%] sm:left-[0%] rotate-[-180deg] z-[10]"
       onClick={onClick}
     >
       <PreButton />
@@ -21,7 +21,7 @@ const Quote = () => {
 
   const CustomPrevArrow = ({ onClick }) => (
     <button
-      className="absolute top-[107%] sm:top-[53%] right-[18%] sm:right-[0%] z-[10]"
+      className="absolute top-[107%] sm:top-[50%] right-[25%] sm:right-[0%] z-[10]"
       onClick={onClick}
     >
       <PreButton />
@@ -39,7 +39,10 @@ const Quote = () => {
   };
   return (
     <>
-      <div id="quote" className="bg-[#2B2B2B] pb-[48px] md:pb-[65px] lg:pb-[100px] xl:pb-[173px] relative overflow-hidden">
+      <div
+        id="quote"
+        className="bg-[#2B2B2B] pb-[86px] md:pb-[65px] lg:pb-[100px] xl:pb-[173px] relative overflow-hidden"
+      >
         <div>
           <Image
             className="absolute hidden lg:block bottom-[50px] right-[57px] "

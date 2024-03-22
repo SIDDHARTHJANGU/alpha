@@ -25,11 +25,11 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    "Unearth new opportunities",
-    "Unearth new opportunities",
-    "Unearth new opportunities",
-    "Unearth new opportunities",
-    "Unearth new opportunities",
+    "Unearth New Opportunities",
+    "Unearth New Opportunities",
+    "Unearth New Opportunities",
+    "Unearth New Opportunities",
+    "Unearth New Opportunities",
   ];
 
   return (
@@ -79,30 +79,30 @@ const Services = () => {
             {/* Content for each tab */}
             {activeTab === 0 && (
               <>
-                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[690px]">
-                  Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                  sartorial out celiac af beard sartorial. Trade shabby cleanse
-                  actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-                  lyft letterpress church-key. Pinterest dreamcatcher
-                  asymmetrical vibecession vegan neutra bun vexillologist. Chips
-                  vape you diy locavore dreamcatcher mood edison kombucha. Kogi
-                  retro chambray bird on. Organic farm-to-table iceland
-                  knausgaard heirloom.
+                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[714px]">
+                  Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+                  Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+                  Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+                  Lyft Letterpress Church-Key. Pinterest Dreamcatcher
+                  Asymmetrical Vibecession Vegan Neutra Bun Vexillologist. Chips
+                  Vape You Diy Locavore Dreamcatcher Mood Edison Kombucha. Kogi
+                  Retro Chambray Bird On. Organic Farm-To-Table Iceland
+                  Knausgaard Heirloom.
                 </p>
                 <Image
-                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px]"
                   src={serviceimg}
                   width={984}
                   height={500}
                   alt="header-first-image-small"
                 />
-                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
+                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[493px]">
                   <div>
                     <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                       {count1}+
                     </p>
                     <p className="font-Inter font-normal text-[#656463] !leading-[121%] text-sm lg:text-base border-b border-black pb-3 lg:pb-5 mt-2">
-                      B2B Companies trust Alpha2
+                      B2B Companies Trust Alpha2
                     </p>
                   </div>
                 </div>
@@ -110,30 +110,30 @@ const Services = () => {
             )}
             {activeTab === 1 && (
               <>
-                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[690px]">
-                  Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                  sartorial out celiac af beard sartorial. Trade shabby cleanse
-                  actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-                  lyft letterpress church-key. Pinterest dreamcatcher
-                  asymmetrical vibecession vegan neutra bun vexillologist. Chips
-                  vape you diy locavore dreamcatcher mood edison kombucha. Kogi
-                  retro chambray bird on. Organic farm-to-table iceland
-                  knausgaard heirloom.
+                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[714px]">
+                  Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+                  Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+                  Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+                  Lyft Letterpress Church-Key. Pinterest Dreamcatcher
+                  Asymmetrical Vibecession Vegan Neutra Bun Vexillologist. Chips
+                  Vape You Diy Locavore Dreamcatcher Mood Edison Kombucha. Kogi
+                  Retro Chambray Bird On. Organic Farm-To-Table Iceland
+                  Knausgaard Heirloom.
                 </p>
                 <Image
-                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px]"
                   src={serviceimg}
                   width={984}
                   height={500}
                   alt="header-first-image-small"
                 />
-                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
+                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[493px]">
                   <div>
                     <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                       {count1}+
                     </p>
                     <p className="font-Inter font-normal text-[#656463] !leading-[121%] text-sm lg:text-base border-b border-black pb-3 lg:pb-5 mt-2">
-                      B2B Companies trust Alpha2
+                      B2B Companies Trust Alpha2
                     </p>
                   </div>
                 </div>
@@ -141,30 +141,30 @@ const Services = () => {
             )}
             {activeTab === 2 && (
               <>
-                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[690px]">
-                  Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                  sartorial out celiac af beard sartorial. Trade shabby cleanse
-                  actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-                  lyft letterpress church-key. Pinterest dreamcatcher
-                  asymmetrical vibecession vegan neutra bun vexillologist. Chips
-                  vape you diy locavore dreamcatcher mood edison kombucha. Kogi
-                  retro chambray bird on. Organic farm-to-table iceland
-                  knausgaard heirloom.
+                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[714px]">
+                  Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+                  Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+                  Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+                  Lyft Letterpress Church-Key. Pinterest Dreamcatcher
+                  Asymmetrical Vibecession Vegan Neutra Bun Vexillologist. Chips
+                  Vape You Diy Locavore Dreamcatcher Mood Edison Kombucha. Kogi
+                  Retro Chambray Bird On. Organic Farm-To-Table Iceland
+                  Knausgaard Heirloom.
                 </p>
                 <Image
-                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px]"
                   src={serviceimg}
                   width={984}
                   height={500}
                   alt="header-first-image-small"
                 />
-                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
+                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[493px]">
                   <div>
                     <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                       {count1}+
                     </p>
                     <p className="font-Inter font-normal text-[#656463] !leading-[121%] text-sm lg:text-base border-b border-black pb-3 lg:pb-5 mt-2">
-                      B2B Companies trust Alpha2
+                      B2B Companies Trust Alpha2
                     </p>
                   </div>
                 </div>
@@ -172,30 +172,30 @@ const Services = () => {
             )}
             {activeTab === 3 && (
               <>
-                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[690px]">
-                  Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                  sartorial out celiac af beard sartorial. Trade shabby cleanse
-                  actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-                  lyft letterpress church-key. Pinterest dreamcatcher
-                  asymmetrical vibecession vegan neutra bun vexillologist. Chips
-                  vape you diy locavore dreamcatcher mood edison kombucha. Kogi
-                  retro chambray bird on. Organic farm-to-table iceland
-                  knausgaard heirloom.
+                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[714px]">
+                  Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+                  Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+                  Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+                  Lyft Letterpress Church-Key. Pinterest Dreamcatcher
+                  Asymmetrical Vibecession Vegan Neutra Bun Vexillologist. Chips
+                  Vape You Diy Locavore Dreamcatcher Mood Edison Kombucha. Kogi
+                  Retro Chambray Bird On. Organic Farm-To-Table Iceland
+                  Knausgaard Heirloom.
                 </p>
                 <Image
-                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px]"
                   src={serviceimg}
                   width={984}
                   height={500}
                   alt="header-first-image-small"
                 />
-                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
+                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[493px]">
                   <div>
                     <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                       {count1}+
                     </p>
                     <p className="font-Inter font-normal text-[#656463] !leading-[121%] text-sm lg:text-base border-b border-black pb-3 lg:pb-5 mt-2">
-                      B2B Companies trust Alpha2
+                      B2B Companies Trust Alpha2
                     </p>
                   </div>
                 </div>
@@ -203,30 +203,30 @@ const Services = () => {
             )}
             {activeTab === 4 && (
               <>
-                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[690px]">
-                  Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                  sartorial out celiac af beard sartorial. Trade shabby cleanse
-                  actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-                  lyft letterpress church-key. Pinterest dreamcatcher
-                  asymmetrical vibecession vegan neutra bun vexillologist. Chips
-                  vape you diy locavore dreamcatcher mood edison kombucha. Kogi
-                  retro chambray bird on. Organic farm-to-table iceland
-                  knausgaard heirloom.
+                <p className="font-Inter font-normal text-base !leading-[161%] text-[#b9b9b9] max-w-[714px]">
+                  Hipster Ipsum Tattooed Brunch I&apos;m Baby. Shaman Venmo
+                  Sartorial Out Celiac Af Beard Sartorial. Trade Shabby Cleanse
+                  Actually Chic Franzen Freegan. Dsa Shabby Pack Etsy Mumblecore
+                  Lyft Letterpress Church-Key. Pinterest Dreamcatcher
+                  Asymmetrical Vibecession Vegan Neutra Bun Vexillologist. Chips
+                  Vape You Diy Locavore Dreamcatcher Mood Edison Kombucha. Kogi
+                  Retro Chambray Bird On. Organic Farm-To-Table Iceland
+                  Knausgaard Heirloom.
                 </p>
                 <Image
-                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px] 2xl:translate-x-[13.3%]"
+                  className="mt-7 lg:absolute xl:max-w-[916px] xl:h-[500px]"
                   src={serviceimg}
                   width={984}
                   height={500}
                   alt="header-first-image-small"
                 />
-                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[500px]">
+                <div className="bg-white w-[150px] h-[120px] lg:w-[217px] lg:h-[175px] px-4 lg:px-8 pt-5 pb-8 text-center flex flex-col justify-center items-center z-30 relative translate-x-[100px] md:translate-x-[200px] xl:translate-x-[493px] -translate-y-[50px] lg:translate-y-[300px] 2xl:translate-y-[400px] xl:translate-y-[450px] 2xl:translate-x-[px]">
                   <div>
                     <p className="font-Inter font-normal text-3xl lg:text-4xl xl:text-5xl text-[#2B2B2B] !leading-[120%]">
                       {count1}+
                     </p>
                     <p className="font-Inter font-normal text-[#656463] !leading-[121%] text-sm lg:text-base border-b border-black pb-3 lg:pb-5 mt-2">
-                      B2B Companies trust Alpha2
+                      B2B Companies Trust Alpha2
                     </p>
                   </div>
                 </div>

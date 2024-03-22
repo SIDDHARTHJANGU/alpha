@@ -64,8 +64,8 @@ const Hero = () => {
                     <ul className="mt-2 lg:mt-10 lg:pb-[72px]">
                       <li>
                         <a
-                          href=""
-                          className="font-Inter font-thin text-xl !leading-[121%] text-[#2B2B2B] flex items-center gap-2.5"
+                          href="#work"
+                          className="font-Inter font-thin text-xl !leading-[121%] text-[#2B2B2B] flex items-center gap-2.5 relative after:absolute after:bg-[#000] after:w-0 after:h-[0.5px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300  hover:after:w-[100%] max-w-[140px]"
                         >
                           Our work <Bttnarrow />
                         </a>
@@ -152,7 +152,7 @@ const Hero = () => {
             <div className="lg:w-[15%] xl:w-[13%] 2xl:w-[15%]">
               <div className="hidden lg:block">
                 <div className="flex flex-col justify-between">
-                  <div className="flex flex-col justify-between items-center text-center border-b border-black h-[305px] pb-8 pt-8">
+                  <div className="flex flex-col justify-between items-center text-center border-b border-black h-[405px] pb-8 pt-8">
                     <div className="pl-16">
                       <Headerhalfcircle />
                     </div>

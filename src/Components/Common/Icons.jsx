@@ -121,8 +121,7 @@ export const PreButton = () => {
   return (
     <div>
       <svg
-        className="pre_button"
-        width="92"
+        className="pre_button  xl:w-[92px] w-[60px] md:w-[70px] lg:w-[80px] "
         height="16"
         viewBox="0 0 92 16"
         fill="none"
@@ -186,7 +185,7 @@ export const Bttnarrow = () => {
 };
 export const Headerhalfcircle = () => {
   return (
-    <svg 
+    <svg
       width="56"
       height="70"
       viewBox="0 0 56 70"

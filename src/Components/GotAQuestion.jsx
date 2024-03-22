@@ -40,7 +40,7 @@ const GotAQuestion = () => {
                 type="message"
                 required=""
                 name="message"
-                placeholder="How We Can Help ?"
+                placeholder="Type your Question here.."
               ></textarea>
             </div>
             <button className="font-semibold text-[16px] font-Inter text-white lg:py-[15.5px] lg:px-[38.4px] py-[12px] px-[25px] bg-[linear-gradient(0deg,#ff5269_-50%,#ff684d_100%)] hover:bg-[linear-gradient(0deg,#ff684d_-50%,#ff5269_100%)] lg:mt-12 mt-6">
